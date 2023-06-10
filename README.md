@@ -49,20 +49,30 @@ The dataset has 550,068 rows and 12 columns. It also contains some missing value
 
 Data visualization is an essential step in understanding the patterns and relationships in the data. The following visualizations have been performed on the dataset:
 
+
 -   Countplot of Gender: Shows the occurrences of gender in the dataset.
+   ![download](https://github.com/pras-ops/Black_Friday_Sales_Analysis/assets/56476064/7e98c952-7ab1-462a-b33f-6084d7af2d3f)
 -   Barplot of Gender and Marital_Status: Compares the gender and marital status.
+   ![download](https://github.com/pras-ops/Black_Friday_Sales_Analysis/assets/56476064/6e4e1919-659d-4c74-a138-db3a1816405a)
 -   Barplot of Gender and Purchase: Compares the gender and purchase amounts.
+    ![download](https://github.com/pras-ops/Black_Friday_Sales_Analysis/assets/56476064/e16224e8-470f-4b60-9a91-a0fffb699dcf)
 -   Barplot of Occupation and Purchase: Shows the effect of occupation on purchases.
+   ![download](https://github.com/pras-ops/Black_Friday_Sales_Analysis/assets/56476064/9a0aabce-5b04-4944-874b-29975e689c95)
 -   Barplot of Occupation, Gender, and Purchase: Shows the gender-specific purchases in different occupations.
+   ![download](https://github.com/pras-ops/Black_Friday_Sales_Analysis/assets/56476064/5cbec06d-97a9-486d-a7b1-ed24be52c7f4)
 
 ## Outlier Detection
 
 Outliers can significantly impact the performance of machine learning models. The presence of outliers has been checked using boxplots for the following variables:
 
 -   Gender and Purchase
+![download](https://github.com/pras-ops/Black_Friday_Sales_Analysis/assets/56476064/9f386348-a14a-42c8-a519-ece0a9c9cdae)
 -   Occupation and Purchase
+![download](https://github.com/pras-ops/Black_Friday_Sales_Analysis/assets/56476064/b51212e4-d954-414f-bbb8-dd6f9a3a4679)
 -   Age and Purchase
+![download](https://github.com/pras-ops/Black_Friday_Sales_Analysis/assets/56476064/ab285814-59d2-45ab-b4f5-b9ee0a9e093a)
 -   Product_Category_1 and Purchase
+![download](https://github.com/pras-ops/Black_Friday_Sales_Analysis/assets/56476064/887a9b67-250e-4d4b-88b5-d594ae2bde16)
 
 The boxplots help identify the presence of outliers in the data.
 
